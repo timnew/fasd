@@ -22,21 +22,21 @@ $ fisher add timnew/fasd
 
 ## Usage
 
-Jump to some where directly
+Jump to location directly
 `fasd` fuzzy matches keyword, and picks the top one
 ```
-$ j somewhere
+$ j fasd
 ```
 
-Jump to some where interactively
+Jump to location interactively
 `fasd` list all candidates with ranking
 ```
-$ jj somewhere
+$ jj fasd
+3	12         /Users/tim.wen/Workspace/fasd/completions
+2	31.8616    /Users/tim.wen/Downloads/fasd
+1	46.2484    /Users/tim.wen/Workspace/fasd
+>
 ```
-
-Easy, huh? [fasd] does support fuzzy search, see the *asciiscast*:
-
-[![asciicast](https://asciinema.org/a/6t3tuvd8ajy0ztg99epi48ki8.png)](https://asciinema.org/a/6t3tuvd8ajy0ztg99epi48ki8)
 
 Hope you have a _fast_ swim!
 
