@@ -17,7 +17,7 @@ $ brew install fasd
 With [fisherman]
 
 ```fish
-$ fisher add timnew/fasd
+$ fisher add timnew/fasd.fish
 ```
 
 ## Usage
